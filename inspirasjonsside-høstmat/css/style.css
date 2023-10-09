@@ -1,0 +1,295 @@
+body{
+	font-size: var(--font-size-large);
+	font-family: monospace;
+
+	background-image:url('../assets/pictures/Autumn-background.jpg');
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+}
+
+.header {
+	color: #f59f37;
+	border: 3px solid #946f42;
+	text-align: center;
+	text-decoration-line: underline;
+	font-weight: normal;
+	font-size: 50px;
+	font-family: 'IndieFlower-Regular';
+	background: #aac679;
+	padding: 10px 20px;
+	width: 100%;
+	
+	flex-flow: row nowrap;
+	align-items: flex-start;
+	justify-content: space-between;
+	position: sticky;
+	top: 10px;
+}
+
+.about {
+	background: #f29748;
+	margin: 40px;
+	font-family: system-ui;
+	overflow: hidden;
+	border-radius: 20px;
+	border: 1px solid #372e29;
+	padding: 20px;
+	padding-left: 25px;
+	position: static;
+	text-align: left;
+	color: antiquewhite;
+}
+
+
+
+
+.container {
+	justify-content: center space-evenly;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 10px;
+	flex-basis: 350px;
+}
+
+.farikal {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	border-radius: 15px;
+	overflow: none;
+	width: 250px;
+	height: 150px;
+	transition: transform 200ms ease;
+}
+
+.farikal:hover {
+	transform: scale(1.1, 1.1) rotate(5deg);
+}
+
+.sodd {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	border-radius: 15px;
+	overflow: none;
+	width: 250px;
+	height: 150px;
+	transition: transform 200ms ease;
+}
+
+.sodd:hover {
+	transform: scale(1.1, 1.1) rotate(5deg);
+}
+
+.pumpkinpie {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	border-radius: 15px;
+	overflow: none;
+	width: 250px;
+	height: 150px;
+	transition: transform 200ms ease;
+}
+
+.pumpkinpie:hover {
+	transform: scale(1.1, 1.1) rotate(5deg);
+}
+
+.viltgryte {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	border-radius: 15px;
+	overflow: none;
+	width: 250px;
+	height: 150px;
+	transition: transform 200ms ease;
+}
+
+.viltgryte:hover {
+	transform: scale(1.1, 1.1) rotate(5deg);
+}
+
+.soppsuppe {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	border-radius: 15px;
+	overflow: none;
+	width: 250px;
+	height: 150px;
+	transition: transform 200ms ease;
+}
+
+.soppsuppe:hover {
+	transform: scale(1.1, 1.1) rotate(5deg);
+}
+
+.blomkalsuppe {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	border-radius: 15px;
+	overflow: none;
+	width: 250px;
+	height: 150px;
+	transition: transform 200ms ease;
+}
+
+.blomkalsuppe:hover {
+	transform: scale(1.1, 1.1) rotate(5deg);
+}
+
+.gulrotsuppe {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	border-radius: 15px;
+	overflow: none;
+	width: 250px;
+	height: 150px;
+	transition: transform 200ms ease;
+}
+
+.gulrotsuppe:hover {
+	transform: scale(1.1, 1.1) rotate(5deg);
+}
+
+.eplekake {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	border-radius: 15px;
+	overflow: none;
+	width: 250px;
+	height: 150px;
+	transition: transform 200ms ease;
+}
+
+.eplekake:hover {
+	transform: scale(1.1, 1.1) rotate(5deg);
+}
+
+.hjort {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	border-radius: 15px;
+	overflow: none;
+	width: 250px;
+	height: 150px;
+	transition: transform 200ms ease;
+}
+
+.hjort:hover {
+	transform: scale(1.1, 1.1) rotate(5deg);
+}
+
+.biffstroganoff {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	border-radius: 15px;
+	overflow: none;
+	width: 250px;
+	height: 150px;
+	transition: transform 200ms ease;
+}
+
+.biffstroganoff:hover {
+	transform: scale(1.1, 1.1) rotate(5deg);
+}
+
+.rotgronnsaker {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	border-radius: 15px;
+	overflow: none;
+	width: 250px;
+	height: 150px;
+	transition: transform 200ms ease;
+}
+
+.rotgronnsaker:hover {
+	transform: scale(1.1, 1.1) rotate(5deg);
+}
+
+.lammelar {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	border-radius: 15px;
+	overflow: none;
+	width: 250px;
+	height: 150px;
+	transition: transform 200ms ease;
+}
+
+.lammelar:hover {
+	transform: scale(1.1, 1.1) rotate(5deg);
+}
+
+.eplepai {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	border-radius: 15px;
+	overflow: none;
+	width: 250px;
+	height: 150px;
+	transition: transform 200ms ease;
+}
+
+.eplepai:hover {
+	transform: scale(1.1, 1.1) rotate(5deg);
+}
+
+.elggryte {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	border-radius: 15px;
+	overflow: none;
+	width: 250px;
+	height: 150px;
+	transition: transform 200ms ease;
+}
+
+.elggryte:hover {
+	transform: scale(1.1, 1.1) rotate(5deg);
+}
+
+.faritrekal {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	border-radius: 15px;
+	overflow: none;
+	width: 250px;
+	height: 150px;
+	transition: transform 200ms ease;
+}
+
+.faritrekal:hover {
+	transform: scale(1.1, 1.1) rotate(5deg);
+}
+
